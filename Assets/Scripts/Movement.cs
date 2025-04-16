@@ -45,7 +45,9 @@ public class Movement : MonoBehaviour
         _isJumpProgress = false;
         _isGrounded = true;       
 
-        _rigidbody.velocity = new Vector3(0f, 0f, 0f);        
+        _rigidbody.velocity = new Vector3(0f, 0f, 0f);
+        _rigidbody.angularVelocity = new Vector3(0f, 0f, 0f);
+
         _rigidbody.isKinematic = false;                
 
         CanMove = true;

@@ -7973,7 +7973,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a8cff3c9c9d64947b9688160a2e7eba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _totalTimeMax: 180
+  _totalTimeMax: 270
   _timerText: {fileID: 349462831}
   IsTimeEnd: 0
   IsGameEnd: 0
